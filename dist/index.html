@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="./logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#071E14" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SALONE LAW" />
+    <meta name="description" content="SALONE LAW - AI Counsel for Sierra Leone. Full 1991 Constitution, Statutes, Case Law Precedents. Created by James Konomanyi." />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <title>SALONE LAW - AI Counsel for Sierra Leone</title>
+    <script type="module" crossorigin src="./assets/index-Jg5x4iWZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CBkklP46.css">
+  </head>
+  <body class="bg-[#071E14] text-slate-100 antialiased selection:bg-amber-400 selection:text-black">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => {
+            console.log('Service Worker registration skipped/failed: ', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "short_name": "SALONE LAW",
+  "name": "SALONE LAW - AI Legal Assistant for Sierra Leone",
+  "description": "Comprehensive AI Legal Assistant with the 1991 Sierra Leone Constitution, Statutes, Case Law, and Legal Drafter. Created by James Konomanyi.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B132B",
+  "theme_color": "#0B132B",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "reference", "utilities", "business"]
+}

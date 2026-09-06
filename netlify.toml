@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/salone-law.apk"
+  to = "/salone-law.apk"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*.apk"
+  [headers.values]
+    Content-Type = "application/vnd.android.package-archive"
+    Content-Disposition = "attachment; filename=\"salone-law.apk\""
+    Cache-Control = "public, max-age=3600"

@@ -1,0 +1,28 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/((?!.*\\.(?:apk|js|css|json|png|jpg|jpeg|svg|ico|txt|woff2)$).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.apk)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.android.package-archive"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"salone-law.apk\""
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}
